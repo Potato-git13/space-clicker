@@ -75,7 +75,7 @@ def release(key):
         save(space_counter, bot_number, bot_price, click_multi_number, click_multi_price)
         display.terminate()
         t.join()
-        quit(0)
+        sys.exit("Exit")
 
     try:
         if key.char == 'b':
